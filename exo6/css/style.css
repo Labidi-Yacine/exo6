@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+
+body {
+  background: url(../img/fond.jpg) no-repeat center center fixed;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.titre1 {
+  width: fit-content;
+  margin-top: 10%;
+  font-family: "JetBrains Mono";
+}
+
+h3{
+  font-family: "JetBrains Mono";
+}
+
+h1,
+h2 {
+  width: fit-content;
+}
+
+.contact {
+  font-family: "JetBrains Mono";
+}
+
+nav {
+  font-family: "JetBrains Mono";
+}
+
+.card{
+  margin-top: 7%;
+}
+.propos{
+  font-family: "JetBrains Mono";
+  margin-top: 6%;
+}
+p{
+  border-radius: 30px;
+  padding-left: 3%;
+}
+
+section{
+  padding-top: 6%;
+}
+
+

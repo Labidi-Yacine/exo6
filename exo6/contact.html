@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link href="./css/bootstrap.css" rel="stylesheet" >
+    <script src="./css/bootstrap.bundle.js"></script>
+    <link href="./css/style.css" rel="stylesheet" >
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <header>
+          <div class="d-flex justify-content-between dropdown">
+            <!-- <a href="#"><img src="./icons/gg_menu-round.png" class="d-md-none d-block dropdown-toggle" /></a> -->
+            <div class="dropdown">
+              <img src="./icons/gg_menu-round.png" alt="menu" class=" dropdown-toggle bg-transparent d-md-none d-block"  data-bs-toggle="dropdown" aria-expanded="false">
+              <ul class="dropdown-menu bg-black">
+                <li><a class="dropdown-item text-white" href="index.html">Accueil</a></li>
+                <li><a class="dropdown-item text-white" href="Apropos.html">A propos</a></li>
+                <li><a class="dropdown-item text-white" href="ExperiencePro.html">Experience</a></li>
+                <li><a class="dropdown-item text-white" href="Portfolio.html">Portfolio</a></li>
+                
+              </ul>
+            </div>
+            <a href="./cv/CV-Yacine-LABIDI.pdf" target="_blank"><img src="./icons/mi_document.png" alt="cv" class="d-md-none d-block" ></a>
+          </div>
+
+          <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav d-flex justify-content-between w-100">
+                  <li class="nav-item d-flex flex-column align-items-center">
+                    <a class="nav-link fs-2" href="index.html">Accueil</a>
+                    <img src="./icons/Arrow.png" alt="Flèche" class="img-fluid mx-auto d-block" >
+                  </li>
+                  <li class="nav-item d-flex flex-column align-items-center">
+                    <a class="nav-link fs-2" href="Apropos.html"> A propos</a>
+                    <img src="./icons/Arrow.png" alt="Flèche" class="img-fluid mx-auto d-block" >
+                  </li>
+                  <li class="nav-item d-flex flex-column align-items-center">
+                    <a class="nav-link fs-2" href="ExperiencePro.html">Experience</a>
+                    <img src="./icons/Arrow.png" alt="Flèche" class="img-fluid mx-auto d-block" >
+                  </li>
+
+                  <li class="nav-item d-flex flex-column align-items-center">
+                    <a class="nav-link fs-2" href="Portfolio.html">Portfolio</a>
+                    <img src="./icons/Arrow.png" alt="Flèche" class="img-fluid mx-auto d-block" >
+                  </li>
+
+                  <li class="nav-item ml-auto">
+                    <a href="./cv/CV-Yacine-LABIDI.pdf" target="_blank">
+                      <img src="./icons/mi_document.png" alt="cv" class="justify-content-end" >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <section class="d-flex flex-column flex-lg-row">
+            <div class="col-lg">
+                <p class="contact fs-2 text-white ">
+                    <span class="text-wrapper"> Contact :<br ><br ></span>
+                    <span class="span">labidiyacine0@gmail.com<br ></span>                   
+                    <span class="text-wrapper-2"><a href="https://www.linkedin.com/in/sentamal/" target="_blank">LinkedIn</a><br ></span>
+                    <span class="span"><a href="https://github.com/Labidi-Yacine" target="_blank">Github</a></span>
+                </p>
+            </div>
+        
+            <form class="col mb-5 ">
+                <div class="mb-4">
+                    <label for="Nom" class="form-label text-white display-6">Nom</label>
+                    <input type="text" class="form-control" placeholder="Nom" aria-label="First name" >
+                </div>
+        
+                <div class="mb-4">
+                    <label for="Prenom" class="form-label text-white display-6">Prenom</label>
+                    <input type="text" class="form-control" placeholder="Prenom" aria-label="First name" >
+                </div>
+        
+                <div class="mb-4">
+                    <label for="MAIL" class="form-label text-white display-6">Adresse Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                </div>
+        
+                <div class="mb-4">
+                    <label for="zoneTexte" class="form-label text-white display-6">Ecrire votre message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+        
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+            <div class="col-1"></div>
+        </section>
+      </div>
+    </div>
+      
+    
+  </body>
+</html>
